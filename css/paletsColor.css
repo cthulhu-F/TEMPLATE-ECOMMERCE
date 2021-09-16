@@ -54,6 +54,17 @@
     border: 1px solid #ff3936;
 }
 
+/* BTN PAGINATION */
+
+.btn-pagination{
+    color: #ff3936 !important;
+
+    transition: 0.5s;
+}
+
+.btn-pagination:hover{
+    color: #333333 !important;
+}
 
 
 
