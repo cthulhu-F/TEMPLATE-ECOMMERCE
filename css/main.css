@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+
+/* SIZE TEXT */
+
+.fs-7{
+  font-size: 12px;
+}
+
+.fs-8{
+  font-size: 13px;
+}
+
+/* CANVA PROPERTY */
+
+.canva-button{
+  display: none;
+}
+
+/* COLOR TEXT */
+
+.white-black{
+  color: white !important;
+}
+
+.text-price{
+  color: black !important;
+}
+
+/* NAV BAR */
+.navbar-home{
+  background-color: #0d6efd;
+}
+
+.navbar-false{
+  display: none;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+/* INPUT */
+
+.search-cat{
+  width: 50%;
+}
+
+.select-form{
+  width: 50%;
+}
+
+/* SLIDER */
+
+
+/* CARDS */
+
+.card{
+  overflow:hidden;
+}
+
+.card .card-body  .breadcrumb  .breadcrumb-item  .link-card{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.card-log{
+  width: 50%;
+}
+
+.card-focus:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+/* IMG PROPERTY */
+
+.img-zoom {
+  transition: transform .2s; 
+
+}
+
+.img-zoom:hover {
+  transform: scale(1.5); 
+}
+
+
+/* STICKY BTN */
+
+.container > .sticky-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 55px;
+  
+  padding: 5px;
+  border-radius: 50px;
+  display: none;
+  
+
+  text-align: center;
+  font-size: 30px;
+  background-color:  #981914; 
+  z-index: 2;
+}
+
+.container > .sticky-btn > button {
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  outline: inherit;
+
+  border: none;
+  background-color:  #981914; 
+  color: white;
+
+
+}
+
+/* MENU DROPDOWN */
+
+.dropdown{
+  display: none;
+}
+
+.menu-dropdown{
+
+  display: none;
+
+  background-color: white !important; 
+  border-radius: none !important;
+}
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 900px) {
+    .carousel {
+      display: none;
+    }
+
+    .list-group-item > .btn {
+      font-size: 12px;
+    }
+
+    .list-group-item > .badge{
+      font-size: 13px;
+    }
+
+    .card-log{
+      width: 90%;
+    }
+
+    .search-cat{
+      width: 90%;
+    }
+
+    .select-form{
+      width: 100%;
+    }
+
+    .navbar-home{
+      position: fixed;
+      top: 0%;
+      width: 100%;
+      z-index: 2;
+
+      background-color: white;
+      color: black;
+    }
+
+    .navbar-false{
+      display: inline-block;
+    }
+
+    .navbar-logo{
+      display: none;
+    }
+
+    /* TEXTO COLOR INVERTER */
+
+    .white-black{
+      color: #000000 !important;
+    }
+
+    /* BOTON CARRITO RESPONSIVE */
+
+    .over-sticky{
+      display: none;
+    }
+
+    
+    .container > .sticky-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 70px;
+      height: 70px;
+      line-height: 55px;
+      
+      padding: 5px;
+      border-radius: 50px;
+      display: inline-block;
+      
+    
+      text-align: center;
+      font-size: 30px;
+      background-color:  #981914; 
+      z-index: 3;
+    }
+
+    /* NAV MENU CATEGORY */
+
+    .menu-dropdown{
+      display: none;
+    }
+
+    .toggle-dropdown{
+      display: none;
+    }
+
+    .dropdown{
+      display: inline-block;
+    }
+
+    /* PROCESO COMPRA */
+
+    .title-cart{
+      display: none;
+
+      font-size: 12px;
+    }
+
+
+    /* CANVA PROPERTY */
+
+    .canva-button{
+      display: inline-block;
+    }
+
+    .filter-off{
+      display: none;
+    }
+
+  }
