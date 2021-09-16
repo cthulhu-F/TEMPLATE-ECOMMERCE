@@ -1,0 +1,73 @@
+/* BACKGROUND COLOR */
+
+
+/* NAVBAR HOME */
+.bg-navbar{
+    background-color: #b91817;
+}
+
+/* SELECT NAVBAR */
+
+.txt-linkAlert{
+    color: #e8e8e7 !important;
+
+    transition: 0.5s;
+}
+
+.txt-linkAlert:hover{
+    opacity: 0.9;
+}
+
+/* TITLE SELECT */
+
+.txt-title{
+    color: #333333 !important;
+}
+
+/* BTN ALERT OUTLINE */
+
+.btn-OutAlert{
+    color: #ff3936 !important;
+    border: 1px solid #ff3936;
+
+    transition: 0.5s;
+}
+
+.btn-OutAlert:hover{
+    color: white !important;
+    background-color: #ff3936;
+}
+
+
+/* BTN ALERT */
+
+.btn-Alert{
+    background-color: #ff3936;
+    color: #e8e8e7 !important;
+
+    transition: 0.5s;
+}
+
+.btn-Alert:hover{
+    background-color: white;
+    color: #ff3936 !important;
+    border: 1px solid #ff3936;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .bg-navbar{
+      background-color: white;
+      color: black;
+    }
+
+    .txt-linkAlert{
+        color: #333333 !important;
+    }
+
+  }

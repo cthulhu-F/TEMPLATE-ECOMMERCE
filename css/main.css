@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import url('paletsColor.css');
 
 body{
     overflow-x: hidden;
@@ -33,9 +33,6 @@ body{
 }
 
 /* NAV BAR */
-.navbar-home{
-  background-color: #0d6efd;
-}
 
 .navbar-false{
   display: none;
@@ -169,14 +166,11 @@ body{
       width: 100%;
     }
 
-    .navbar-home{
+    .bg-navbar{
       position: fixed;
       top: 0%;
       width: 100%;
       z-index: 2;
-
-      background-color: white;
-      color: black;
     }
 
     .navbar-false{
