@@ -6,26 +6,35 @@ body{
     overflow-x: hidden;
 }
 
-/* SIZE TEXT */
+/* SIZE TEXT STYLE  */
+
+/*FS-6 : 15px*/
 
 .fs-7{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .fs-8{
   font-size: 13px;
 }
 
+.fs-9{
+  font-size: 12px;
+}
+
+.fs-10{
+  font-size: 11px;
+}
+
+.fs-11{
+  font-size: 10px;
+}
+
+
 /* CANVA PROPERTY */
 
 .canva-button{
   display: none;
-}
-
-/* COLOR TEXT */
-
-.white-black{
-  color: white !important;
 }
 
 .text-price{
@@ -116,8 +125,11 @@ body{
   border: none;
   background-color:  #981914; 
   color: white;
+}
 
 
+.rounded-nav{
+  top: 40%;
 }
 
 /* MENU DROPDOWN */
