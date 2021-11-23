@@ -139,6 +139,7 @@ class Carrito {
         let productos;
         productos = this.obtenerProductoLocalStorage();
         productos.push(producto);
+        console.log(productos);
         localStorage.setItem("productos", JSON.stringify(productos));
     }
 

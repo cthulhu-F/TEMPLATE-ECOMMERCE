@@ -6,6 +6,17 @@
     background-color: #b91817;
 }
 
+/* EXTRA BG */
+
+.bg-redOpac{
+    background-color: #b91817;
+}
+
+.bg-accept{
+    background-color: #199754 !important;
+}
+
+
 /* SELECT NAVBAR */
 
 .txt-linkAlert{
@@ -22,6 +33,20 @@
 
 .txt-title{
     color: #333333 !important;
+}
+
+/* BTN ACCEPT OUTLINE */
+
+.btn-OutAccept{
+    color: #199754 !important;
+    border: 1px solid #199754;
+
+    transition: 0.5s;    
+}
+
+.btn-OutAccept:hover{
+    color: white !important;
+    background-color: #199754;
 }
 
 /* BTN ALERT OUTLINE */

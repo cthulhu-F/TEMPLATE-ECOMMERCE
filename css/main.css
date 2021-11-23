@@ -1,9 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('fontStyle.css');
 @import url('paletsColor.css');
+
+
 
 body{
     overflow-x: hidden;
+  
+
 }
 
 /* SIZE TEXT STYLE  */
@@ -129,7 +133,7 @@ body{
 
 
 .rounded-nav{
-  top: 40%;
+  top: 40% !important;
 }
 
 /* MENU DROPDOWN */
